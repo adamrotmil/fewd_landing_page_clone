@@ -74,18 +74,27 @@ div {
 
 .top-navigation .links {
 	float: right;
-    color: #838994;
-    font-size: 1.04rem;
     margin-top: 1.7rem;
 }
 
-.top-navigation .links li {
+.top-navigation .links > li {
     display: inline-block;
     margin-left: 2.5rem;
     font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
-	color: #838994; 
+	color: #878787; 
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 
+/* Default state of active in nav */
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links:hover {
+    color: #fff;
+    cursor: pointer;
+}
 
