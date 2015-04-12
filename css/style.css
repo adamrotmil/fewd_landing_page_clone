@@ -46,3 +46,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* LAYOUT
+   Border around each div,
+   Gray background on whole page 
+*/
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width:970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.top-navigation > .content > .links {
+	float:right;
+}
+
+/* This gets ignored, why? */
+#logo {
+	margin: 12 0 0 12;
+}
