@@ -97,12 +97,12 @@ div {
 	font-size: 16px; 
 	color: #878787; 
 	letter-spacing: 0.03em;
-    -o-transition:color 1s ease-out, background 1s ease-in;
-    -ms-transition:color 1s ease-out, background 1s ease-in;
-    -moz-transition:color 1s ease-out, background 1s ease-in;
-    -webkit-transition:color 1s ease-out, background 1s ease-in;
+    -o-transition:color .5s ease-out, background .5s ease-in;
+    -ms-transition:color .5s ease-out, background .5s ease-in;
+    -moz-transition:color .5s ease-out, background .5s ease-in;
+    -webkit-transition:color .5s ease-out, background .5s ease-in;
     /* ...and now override with proper CSS property */
-    transition:color 1s ease-out, background 1s ease-in;
+    transition:color .5s ease-out, background .5s ease-in;
 }
 
 
