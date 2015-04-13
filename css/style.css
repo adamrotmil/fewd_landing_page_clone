@@ -216,16 +216,5 @@ div {
     margin-top: 15px;
 }
 
-.footer
-/* house the footer area */
-    background-color: white;
-    height: 30rem;
 
-.social-links
-/* icons for social media -- need to use http for these to work */
-
-.footer > p {
-    display: block;
-    margin: auto 0;
-}
 
