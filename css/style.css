@@ -48,11 +48,11 @@ table {
 }
 
 
-/* LAYOUT
+/* 
+* * LAYOUT
    Border around each div,
    Gray background on whole page 
-*/
-
+   
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
@@ -60,6 +60,8 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+*/
+
 
 /* Navigation Section */
 
@@ -233,7 +235,7 @@ div {
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
-    height: 2.5rem;
+    
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
