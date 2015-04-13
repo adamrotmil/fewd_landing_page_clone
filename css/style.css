@@ -48,14 +48,17 @@ table {
 }
 
 
-
+/* 
+* * LAYOUT
+   
+   white background on whole page */ 
 
 body {
-    
+    background-color: White;
     font-family: 'Roboto', sans-serif;
 }
 div {
-    
+    border: 1px solid Chocolate;
 }
 
 
@@ -110,7 +113,7 @@ div {
 
 .introduction {
 	background-image: url("../images/first-background.jpg");
-	
+	background-color: White;
 	background-position: center bottom;
 	background-repeat: no repeat;
 	background-size: cover;
