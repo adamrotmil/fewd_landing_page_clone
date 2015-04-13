@@ -51,8 +51,8 @@ table {
 /* 
 * * LAYOUT
    Border around each div,
-   Gray background on whole page 
-   
+   Gray background on whole page */ 
+
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif;
@@ -60,7 +60,7 @@ body {
 div {
     border: 1px solid Chocolate;
 }
-*/
+
 
 
 /* Navigation Section */
