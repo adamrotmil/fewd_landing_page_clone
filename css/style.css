@@ -140,6 +140,7 @@ div {
 
 /* Button on splash screen */
 
+
 .big-button {
     text-shadow: none;
     border-style: none;
@@ -147,11 +148,16 @@ div {
     padding: 16px 26px;
     line-height: 1.33;
     width: 200px;
-    background-color:blue;
+    background-color: blue;
     font-size: 1rem;
     color: white;
     display: block;
     margin: 0 auto;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
 }
 
 .big-button:hover {
@@ -161,7 +167,7 @@ div {
     padding: 16px 26px;
     line-height: 1.33;
     width: 200px;
-    background-color:red;
+    background-color: #d1d1d1; color:#fff;
     font-size: 1rem;
     color: white;
     display: block;
