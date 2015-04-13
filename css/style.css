@@ -65,6 +65,9 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .content {
 	height: 70px;
@@ -204,7 +207,7 @@ div {
 
 .captions li {
 	display: inline-block;
-	width: 120px;
-	margin: 0 100px;
+	width: 318px;
+	
 }
 
