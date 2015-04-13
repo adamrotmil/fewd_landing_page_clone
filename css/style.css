@@ -87,6 +87,9 @@ div {
     margin-top: 1.7rem;
 }
 
+
+
+
 .top-navigation .links li {
     display: inline-block;
     margin-left: 2.5rem;
@@ -95,7 +98,16 @@ div {
 	color: #878787; 
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
 }
+
+
+
+
 
 /* Default state of active in nav */
 .top-navigation .links .active {
@@ -148,7 +160,7 @@ div {
     padding: 16px 26px;
     line-height: 1.33;
     width: 200px;
-    background-color: blue;
+    background-color: #be5e00;
     font-size: 1rem;
     color: white;
     display: block;
